@@ -1,0 +1,156 @@
+html, body { height: 100%; }
+
+#dhead {
+    margin-top: 20px;
+}
+
+head {
+    display: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #333;
+}
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+div {
+    display: block;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+#dpic {
+    grid-column: span 6;
+    text-align: right;
+}
+
+#dpic img {
+    width: 240px;
+    height: 240px;
+    border-radius: 120px;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+hr {
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    padding: 0;
+    margin: 20px 0px 20px 0px;
+    border: 0;
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.timespan {
+    grid-column: span 1;
+    font-size: 14px;
+    text-align: right;
+    padding-right: 5px;
+    color: #bbb;
+}
+
+.ico {
+    grid-column: span 1;
+    vertical-align: top;
+    border-left: 2px solid #cfcfcf;
+    position: relative;
+}
+
+.ico img {
+    border-radius: 5px;
+    width: 100%;
+    max-width: 80px;
+    margin-left: 10px;
+}
+
+.entry-dot {
+    position: absolute;
+    top: 0px;
+    left: -8px;
+    width: 10px;
+    height: 10px;
+    border-radius: 7px;
+    background-color: #cfcfcf;
+    border: 2px solid white;
+}
+
+.desc {
+    grid-column: span 10;
+    vertical-align: top;
+    font-size: 17px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.ctitle {
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+#featured-talks .row {
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding-bottom: 30px;
+}
+
+.card {
+    grid-column: span 3;
+    vertical-align: top;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.card img {
+    border-radius: 5px;
+    width: 100%;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+
+.cdesc {
+    height: 30px;
+    vertical-align: top;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
